@@ -13,7 +13,7 @@
     <form action="script.php" method="GET">
         <div>
             <label for="paragraph">Inserisci il testo</label>
-            <input type="text" id="paragraph" name="paragraph">
+            <textarea type="text" id="paragraph" name="paragraph"></textarea>
         </div>
 
         <div>
@@ -22,6 +22,7 @@
         </div>
 
         <button type="submit">Invia</button>
+        <button type="reset">Annulla</button>
     </form>
 </body>
 
